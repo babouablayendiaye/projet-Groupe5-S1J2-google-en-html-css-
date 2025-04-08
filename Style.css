@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2; /* Couleur de fond légère */
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 30px;
+    max-width: 300px; /* Ajustez la taille du logo si nécessaire */
+    height: auto;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 584px; /* Largeur approximative de la barre de recherche Google */
+}
+
+.search-input {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06); /* Légère ombre */
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4285f4; /* Couleur bleue de focus Google */
+    box-shadow: 0 1px 6px rgba(66, 133, 244, 0.3); /* Ombre de focus */
+}
+
+.search-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 24px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.search-buttons button:hover {
+    border-color: #dadce0;
+}
+
+.search-buttons button:focus {
+    outline: none;
+    border-color: #4285f4;
+}
